@@ -37,3 +37,10 @@ Encapsulate ***STATE***.
 Find where change occurs. We need to make codes *Configure code regardless of current state, and independent with state change*.
 
 So, let's make state to class for encapsulate. It makes the code to easily modify.
+
+# Code2
+<img width="450" alt="image" src="https://github.com/wnghks7787/OODP_StatePattern/assets/74361097/4145a610-c0d0-4116-a095-5db495571d3b">
+
+This is class diagram with new ***State Design Pattern***.
+It is quite similar with Strategy Design Pattern.
+So, we can code it regardless current state.
