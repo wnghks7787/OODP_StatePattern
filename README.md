@@ -26,3 +26,14 @@ Also, we need *state* variables to store lightbulb's state.
 This code is hard to add new state, for example "sleeping mode".
 Maybe we make new constant "SLEEPING" and check it.
 Code 1 show you how to make it.
+
+### About *SLEEPING* state
+We add *SLEEPING* state in code1.
+However, in *if* statement, there is lots of redundancy, and it is not comfortable to check change of states.
+Also, if we need to add new state, in this case *SLEEPING*, we should change every method to changing state.
+
+### Solution
+Encapsulate ***STATE***.
+Find where change occurs. We need to make codes *Configure code regardless of current state, and independent with state change*.
+
+So, let's make state to class for encapsulate. It makes the code to easily modify.
