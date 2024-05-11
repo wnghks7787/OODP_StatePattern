@@ -16,4 +16,8 @@ This is very simple fan. We cannot choose wind power. We either cannot make it r
 
 Each rectangle of the image is ***State***. Also, arrow means ***State transition***.
 
-Yes, there is a circle, and we call it ***PseudoState***. Most of time, they represent *initial*, *final*, *history*, etc.
+Yes, there is a circle, and we call it ***PseudoState***. Most time, they represent *initial*, *final*, *history*, etc.
+
+# Code1
+In this code, we make a "LightBulb" example. Lightbulb can be On, or Off.
+Also, we need *state* variables to store lightbulb's state.
