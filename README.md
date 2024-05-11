@@ -44,3 +44,14 @@ So, let's make state to class for encapsulate. It makes the code to easily modif
 This is class diagram with new ***State Design Pattern***.
 It is quite similar with Strategy Design Pattern.
 So, we can code it regardless current state.
+
+# Code3
+In Code2, we there are issue that *ON*, *OFF* state will could generate infinitely.
+To solve this problem, we use ***Singleton Pattern***.
+Now we can use ON / OFF state once a time.
+
+## When we use StatePattern?
+If we need to give another task regards of object's state, we can use State Design Pattern.
+
+## Collaboration
+<img width="450" alt="image" src="https://github.com/wnghks7787/OODP_StatePattern/assets/74361097/60fc3ca5-d360-4ef3-b68d-e3cda4094f8d">
