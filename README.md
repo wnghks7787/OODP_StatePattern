@@ -55,3 +55,5 @@ If we need to give another task regards of object's state, we can use State Desi
 
 ## Collaboration
 <img width="450" alt="image" src="https://github.com/wnghks7787/OODP_StatePattern/assets/74361097/60fc3ca5-d360-4ef3-b68d-e3cda4094f8d">
+
+자료 출처: 정인상, 채홍석. 자바 객체지향 디자인 패턴: UML과 GoF 디자인 패턴 핵심 10가지로 배우는. 한빛미디어.
