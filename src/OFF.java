@@ -9,7 +9,7 @@ public class OFF implements State {
     @Override
     public void on_button_pushed(Light light) {
         System.out.println("Light On!");
-        light.setState(new ON(light));
+        light.setState(ON.getInstance());
     }
 
     @Override

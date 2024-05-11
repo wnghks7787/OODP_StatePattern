@@ -13,6 +13,6 @@ public class ON implements State {
     @Override
     public void off_button_pushed(Light light) {
         System.out.println("Light Off!");
-        light.setState(new OFF(light));
+        light.setState(OFF.getInstance());
     }
 }

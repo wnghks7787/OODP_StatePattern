@@ -2,7 +2,7 @@ public class Light {
     private State state;          // Current state of Lightbulb
 
     public Light() {
-        state = new OFF();    // Initial LightBulb == OFF
+        state = OFF.getInstance();    // Initial LightBulb == OFF
     }
 
     public void setState(State state) {
@@ -14,6 +14,6 @@ public class Light {
     }
 
     public void off_button_pushed() {
-        state.on_button_pushed(this);
+        state.off_button_pushed(this);
     }
 }
