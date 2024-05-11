@@ -21,3 +21,8 @@ Yes, there is a circle, and we call it ***PseudoState***. Most time, they repres
 # Code1
 In this code, we make a "LightBulb" example. Lightbulb can be On, or Off.
 Also, we need *state* variables to store lightbulb's state.
+
+## Problems
+This code is hard to add new state, for example "sleeping mode".
+Maybe we make new constant "SLEEPING" and check it.
+Code 1 show you how to make it.
